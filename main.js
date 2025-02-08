@@ -9,7 +9,7 @@ function Login()
 
     if(Name == NameUser && pass == Password)
     {
-        window.location.href = 'https://ttbuba.github.io/X-tr0/Main.html';
+        window.location.href = 'main.html';
     }
 }
 
