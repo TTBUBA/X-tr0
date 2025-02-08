@@ -1,0 +1,53 @@
+body 
+{
+    background: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.BoxLogin {
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.Login input 
+{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.ButtonLogin button 
+{
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ButtonLogin button:hover
+{
+    background: #333;
+}
